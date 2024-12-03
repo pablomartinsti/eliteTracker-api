@@ -1,0 +1,37 @@
+{
+  "name": "elitetracker-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch src/server.ts"
+  },
+  "keywords": [
+    "api",
+    "express",
+    "typescript",
+    "elite-tracker"
+  ],
+  "author": {
+    "name": "Pablo Ferreira Martins",
+    "url": "https://www.linkedin.com/in/pablo-ferreira-martins/"
+  },
+  "license": "ISC",
+  "description": "API pra o Elite Tracker",
+  "devDependencies": {
+    "@eslint/js": "^9.16.0",
+    "@types/express": "^4.17.21",
+    "eslint": "^9.16.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-import-helpers": "^2.0.1",
+    "eslint-plugin-prettier": "^5.2.1",
+    "globals": "^15.13.0",
+    "prettier": "^3.4.1",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2",
+    "typescript-eslint": "^8.17.0"
+  },
+  "dependencies": {
+    "express": "^4.21.1",
+    "mongoose": "^8.8.3"
+  }
+}
