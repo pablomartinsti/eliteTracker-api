@@ -12,4 +12,10 @@ routes.get('/', (request, response) => {
   return response.status(200).json({ name, description, version });
 });
 
+routes.get('/habits', habitsController.index);
+
 routes.post('/habits', habitsController.store);
+
+routes.delete('/habits/:id', habitsController.remove);
+
+routes.patch('/habits/:id/toggle', habitsController.toggle);
